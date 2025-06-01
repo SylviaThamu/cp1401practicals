@@ -1,56 +1,42 @@
-# Logic Exercise
+Quick Questions
 
-Smith is the project manager.
-Jones is the consultant.
-Brown is the programmer.
+1. Write two variable names that would be valid and well-named.
+   - original_price
+   - daily_food_cost
+
+2. Write two variable names that would be valid but not well-named.
+   - x
+   - a123
+
+3. Write two variable names that would not be valid.
+   - 1price
+   - daily-food-cost
+
+4. What is the naming convention for variables in Python?
+   - Variables use lowercase letters with words separated by underscores (snake_case). They cannot start with a number or contain spaces or special characters except underscore.
+
+5. What is a constant? Give an example of when you would use one.
+   - A constant is a variable whose value does not change during the execution of a program. For example, using DISCOUNT_RATE = 0.2 when a fixed 20% discount applies.
+
+6. What is the naming convention for constants?
+   - Constants are usually named using all uppercase letters with words separated by underscores (UPPER_SNAKE_CASE).
+
+Logic Exercise
+
+The fewest number of socks you must take to be sure to get a pair of the same colour is 3.
 
 Explanation:
-- The programmer is an only child.
-- Smith married Brown’s sister, so Brown is not an only child.
-- That means Brown cannot be the programmer.
-- Smith earns more money than the consultant, so Smith is not the consultant.
-- Therefore, Smith must be the project manager.
-- That leaves Jones as the consultant and Brown as the programmer.
+There are only two colours: black and white.
+If you pick 1 black and 1 white sock, you still have no pair.
+But if you pick one more sock (the 3rd sock), it must match either black or white.
+Thus, 3 socks guarantee a pair of the same colour.
 
-# Algorithms
+Reflection
+1. What is your current career goal? What do you see yourself doing 5 years from now?
+My current career goal is to work in cybersecurity, mainly helping people and companies keep their data safe
 
-# i. Brew Ratio
-get dose, yield
-brew_ratio = yield / dose
-print brew_ratio
+2. How are your current efforts in this subject helping you achieve that goal?
+Learning Python, using functions, and understanding problem-solving methods are building my programming foundation.
 
-# ii. Afford Item
-get item_price, money
-if money >= item_price
-    print "You can afford it"
-else
-    print "You cannot afford it"
-
-# iii. Clean Room
-while room is messy
-    pick up something
-    put it away
-print "Room is clean"
-
-# Problem Decomposition
-
-# a. Happy Photos Booking
-Nouns: customer, charge, hours, id code, booking
-Verbs: enter, calculate, display
-
-Algorithm:
-get customer_name, booking_date
-generate booking_id
-get hourly_rate, hours
-total = hourly_rate * hours
-print booking_id and total
-
-# b. Road Trip Speed
-Nouns: distance, speed, time
-Verbs: ask, travel, show
-
-Algorithm:
-get distance, time_minutes
-time_hours = time_minutes / 60
-speed = distance / time_hours
-print speed
+3. What can you do differently to improve the value of your time at university as you work towards your goals?
+Do more practise with pseudocode and  practice coding challenges to improve my skills and experience.
