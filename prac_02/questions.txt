@@ -1,0 +1,11 @@
+1. Why should you use functions?
+Functions make programs easier to understand, reuse, and maintain.
+
+2. What does the main function do?
+It controls the flow of the program by calling other functions.
+
+3. What is the purpose of the return statement in a function?
+It sends a value back to the part of the program where the function was called.
+
+4. How is using main() helpful when writing programs?
+It helps keep the program organized and makes it easier to find the starting point.
