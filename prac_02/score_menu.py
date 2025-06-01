@@ -1,3 +1,5 @@
+def main():
+    score = float(input("Enter score: "))
     while score < 0 or score > 100:
         print("Invalid score")
         score = float(input("Enter score: "))
@@ -8,6 +10,8 @@
             print(determine_score_result(score))
         elif choice == "S":
             print_stars(score)
+        else:
+            print("Invalid choice")
         choice = get_menu_choice()
     print("Goodbye.")
 
