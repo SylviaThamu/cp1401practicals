@@ -1,0 +1,56 @@
+# Logic Exercise
+
+Smith is the project manager.
+Jones is the consultant.
+Brown is the programmer.
+
+Explanation:
+- The programmer is an only child.
+- Smith married Brown’s sister, so Brown is not an only child.
+- That means Brown cannot be the programmer.
+- Smith earns more money than the consultant, so Smith is not the consultant.
+- Therefore, Smith must be the project manager.
+- That leaves Jones as the consultant and Brown as the programmer.
+
+# Algorithms
+
+# i. Brew Ratio
+get dose, yield
+brew_ratio = yield / dose
+print brew_ratio
+
+# ii. Afford Item
+get item_price, money
+if money >= item_price
+    print "You can afford it"
+else
+    print "You cannot afford it"
+
+# iii. Clean Room
+while room is messy
+    pick up something
+    put it away
+print "Room is clean"
+
+# Problem Decomposition
+
+# a. Happy Photos Booking
+Nouns: customer, charge, hours, id code, booking
+Verbs: enter, calculate, display
+
+Algorithm:
+get customer_name, booking_date
+generate booking_id
+get hourly_rate, hours
+total = hourly_rate * hours
+print booking_id and total
+
+# b. Road Trip Speed
+Nouns: distance, speed, time
+Verbs: ask, travel, show
+
+Algorithm:
+get distance, time_minutes
+time_hours = time_minutes / 60
+speed = distance / time_hours
+print speed
